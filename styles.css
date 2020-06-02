@@ -78,6 +78,7 @@ body{
     display: flex;
     margin:0 0;
     background-size: cover;
+    background-position: top;
     border-bottom: 1px black solid;
     border-width: thin;
     flex-direction: column;
@@ -183,5 +184,7 @@ body{
     .row{
         font-size: 22px;
     }
-    
+    .current{
+        background-position:0% 20%;
+    }
 }
